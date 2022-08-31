@@ -1,6 +1,6 @@
 # Rentabilidade - FII - Simulador de investimentos
 
-### Apicação que mostra gráfico de dividendos mês a mês de fundos imobiliários e realiza cálculos de juros compostos
+### Aplicação que mostra gráfico de dividendos mês a mês de fundos imobiliários e realiza cálculos de juros compostos
 
 Objetivo: Auxiliar usuário a acompanhar a rentabilidade anual correta do investimento
 
