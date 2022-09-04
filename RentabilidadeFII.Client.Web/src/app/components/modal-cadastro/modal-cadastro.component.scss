@@ -1,0 +1,18 @@
+.modal-footer {
+  justify-content: space-between;
+
+  .btn-cad {
+    background-color: #20c997;
+    padding: 0px 16px 0px 16px;
+    margin-right: 16px;
+    border: none;
+    border-radius: 15px;
+  }
+  .btn-can {
+    background-color: #dc3545;
+    padding: 0px 16px 0px 16px;
+    margin-left: 16px;
+    border: none;
+    border-radius: 15px;
+  }
+}
