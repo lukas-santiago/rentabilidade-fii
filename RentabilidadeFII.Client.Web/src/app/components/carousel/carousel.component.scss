@@ -1,0 +1,16 @@
+.carousel {
+  margin: 24px;
+  width: 98%;
+
+  .imagens-carousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 320px;
+  }
+
+  .carousel-indicators {
+    position: relative;
+  }
+}

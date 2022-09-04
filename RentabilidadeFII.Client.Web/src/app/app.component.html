@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Rentabilidade de FII's</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"
+          routerLink="grafico">Gráfico</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"
+          routerLink="tabela">Tabela</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"
+          routerLink="Calculadora">Calculadora</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"
+          routerLink="cadastrar">Cadastrar</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="carousel">
+  <app-carousel></app-carousel>
+</div>
+
+<div>
+  <app-modal-login></app-modal-login>
+</div>
+
+<div>
+  <app-modal-cadastro></app-modal-cadastro>
+</div>
+
+<div>
+  <app-cadastro></app-cadastro>
+</div>
+
+<router-outlet></router-outlet>
